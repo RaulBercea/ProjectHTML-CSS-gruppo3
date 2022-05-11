@@ -1,0 +1,43 @@
+/*HOmepage Style */
+
+@media only screen and (max-width: 768px) {
+	html {
+		box-sizing: border-box;
+	}
+
+	*,
+	*::before,
+	*::after {
+		box-sizing: inherit;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:visited,
+	a:active {
+		color: white;
+	}
+
+	li {
+		text-align: center;
+		list-style: none;
+	}
+
+	#menuheader {
+		background-color: black;
+		height: 40px;
+	}
+
+	#navbar {
+		background-color: black;
+		width: 100%;
+		position: absolute;
+	}
+
+	#navbar li:hover {
+		background-color: white;
+		color: black;
+	}
+}
